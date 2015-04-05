@@ -11,7 +11,7 @@
 #ifndef __NOXIMMAIN_H__
 #define __NOXIMMAIN_H__
 
-#include <cassert>
+#include <cassert>//assert 异常断言
 #include <systemc.h>
 #include <vector>
 using namespace std;
@@ -185,7 +185,7 @@ struct NoximRouteData {
 
 struct NoximChannelStatus {
     int free_slots;		// occupied buffer slots
-    bool available;		// 
+    bool available;		//
     inline bool operator ==(const NoximChannelStatus & bs) const {
 	return (free_slots == bs.free_slots && available == bs.available);
     };

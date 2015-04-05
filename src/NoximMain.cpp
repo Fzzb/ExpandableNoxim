@@ -44,7 +44,7 @@ char NoximGlobalParams::router_power_filename[128] = DEFAULT_ROUTER_PWR_FILENAME
 bool NoximGlobalParams::low_power_link_strategy = DEFAULT_LOW_POWER_LINK_STRATEGY;
 double NoximGlobalParams::qos = DEFAULT_QOS;
 bool NoximGlobalParams::show_buffer_stats = DEFAULT_SHOW_BUFFER_STATS;
-                                  
+
 //---------------------------------------------------------------------------
 
 int sc_main(int arg_num, char *arg_vet[])
